@@ -1,7 +1,7 @@
 # Context-Engineering
 
 by Denis Rothman <br><br>
-<img src="https://github.com/Denis2054/Context-Engineering/blob/main/context_engineering?png?raw=tru" alt="drawing" width="400"/>
+<img src="https://github.com/Denis2054/Context-Engineering/blob/main/context_engineering.png?raw=tru" alt="drawing" width="400"/>
 
 Last updated: September 1, 2025     
 📝 For details on updates and improvements, see the [Changelog](./CHANGELOG.md).   
