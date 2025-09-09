@@ -3,7 +3,7 @@
 by Denis Rothman <br><br>
 <img src="https://github.com/Denis2054/Context-Engineering/blob/main/context_engineering.png?raw=tru" alt="drawing" width="400"/>
 
-Last updated: September 5, 2025     
+Last updated: September 9, 2025     
 📝 For details on updates and improvements, see the [Changelog](./CHANGELOG.md).   
 
 🚩If you see anything that doesn't run as expected, raise an issue, and we'll work on it!   
@@ -41,4 +41,6 @@ You can run the notebooks directly from the table below:
  **Chapter 2 Building a Multi-Agent System(MAS) with MCP**
 | <ul><li>MAS_MCP.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter02/MAS_MCP.ipynb) |
 | <ul><li>MAS_MCP_control.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter02/MAS_MCP_control.ipynb) |
-
+ **Chapter 3 Building the Context Aware MAS**
+| <ul><li>RAG_Pipeline.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter03/RAG_Pipeline.ipynb) |
+| <ul><li>Context_Aware_MAS.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter03/Context_Aware_MAS.ipynb) |
