@@ -34,7 +34,7 @@ You can run the notebooks directly from the table below:
 | Chapter | Colab | Kaggle | Gradient | StudioLab |
 | :-------- | :-------- | :------- |:------- |:------- |
 | | | | | |
-**Part I **
+**Part I Building the Context Engine**
  **Chapter 1: The Semantic Blueprint: From Prompt to Context**
 | <ul><li>SLR.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter01/SLR.ipynb) |
 | <ul><li>Use_Case.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter01/Use_Case.ipynb) |
