@@ -3,7 +3,7 @@
 # We now make one final, crucial upgrade to the AgentRegistry.
 # We must ensure all dependencies, including namespaces, are passed through.
 # -------------------------------------------------------------------------
-
+import logging 
 class AgentRegistry:
     def __init__(self):
         self.registry = {
