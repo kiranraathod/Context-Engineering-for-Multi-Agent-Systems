@@ -116,7 +116,7 @@ Generate the content now, following the blueprint precisely."""
             client=client,
             generation_model=generation_model
         )
-        return create_mcp_message("Writer", {"final_output": final_output})
+        return create_mcp_message("Writer", final_output)
     except Exception as e:
         logging.error(f"[Writer] An error occurred: {e}")
         raise e
