@@ -105,4 +105,31 @@ def count_tokens(text, model="gpt-4"):
     return len(encoding.encode(text))
 
 
+# === Security Utility (New for Chapter 7) ===
+def helper_sanitize_input(text):
+    """
+    A simple sanitization function to detect and flag potential prompt injection patterns.
+    Returns the text if clean, or raises a ValueError if a threat is detected.
+    """
+    # List of simple, high-confidence patterns to detect injection attempts
+    injection_patterns = [
+        r"ignore previous instructions",
+        r"ignore all prior commands",
+        r"you are now in.*mode",
+        r"act as",
+        r"print your instructions",
+        # A simple pattern to catch attempts to inject system-level commands
+        r"sudo|apt-get|yum|pip install"
+    ]
+    
+    for pattern in injection_patterns:
+        if re.search(pattern, text, re.IGNORECASE):
+            logging.warning(f"[Sanitizer] Potential threat detected with pattern: '{pattern}'")
+            raise ValueError(f"Input sanitization failed. Potential threat detected.")
+            
+    logging.info("[Sanitizer] Input passed sanitization check.")
+    return text
+
 logging.info("✅ Helper functions defined and upgraded.")
+
+
