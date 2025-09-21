@@ -163,8 +163,6 @@ def agent_writer(mcp_message, client, generation_model):
         logging.error(f"[Writer] An error occurred: {e}")
         raise e
 
-logging.info("✅ Specialist Agents defined and fully upgraded.")
-
 # FILE: Chapter 6
 # === 4.4. Summarizer Agent (New for Context Reduction) ===
 def agent_summarizer(mcp_message, client, generation_model):
@@ -205,3 +203,5 @@ Generate the summary now."""
     except Exception as e:
         logging.error(f"[Summarizer] An error occurred: {e}")
         raise e
+        
+logging.info("✅ Specialist Agents defined and fully upgraded.")
