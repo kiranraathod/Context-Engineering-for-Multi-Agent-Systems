@@ -49,7 +49,7 @@ You can run the notebooks directly from the table below:
 Note for Author: Expand on dependencies
  **Chapter 5: From Prototype to Production: Hardening the Context Engine**
 | <ul><li>Context_Engine_MAS_MCP.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter05/Context_Engine_MAS_MCP.ipynb) |
-| <ul><li>Context_Engine_Pre_Production.ipynb/li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter05/Context_Engine_Pre_Production.ipynb) |
+| <ul><li>Context_Engine_Pre_Production.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter05/Context_Engine_Pre_Production.ipynb) |
  **Chapter 6 The Art of Context Reduction: The Summarizer Agent**
 | <ul><li>Context_Engine_Content_Reduction.ipynb</li></ul>|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Context-Engineering/blob/main/Chapter06/Context_Engine_Content_Reduction.ipynb) |
  **Chapter 7 High-Fidelity RAG & Defense: The NASA-Inspired Research Assistant**
