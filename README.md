@@ -1,6 +1,6 @@
 <h1 align="center">
 Context Engineering  for Multi-Agent Systems, First Edition</h1>
-<p align="center">This is the code repository for <a href ="context-engineering--for-multi-agent-systems-first-edition"> Context Engineering  for Multi-Agent Systems, First Edition</a>, published by Packt.</p>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/context-engineering-for-multi-agent-systems-9781806690046"> Context Engineering  for Multi-Agent Systems, First Edition</a>, published by Packt.</p>
 <p align="center">Last updated: November 7, 2025.</p>
 <p align="center">See the <a href="./CHANGELOG.md">Changelog</a> for details.</p>
 
@@ -25,8 +25,8 @@ Denis Rothman</p>
 </p>
 <details open> 
   <summary><h2>About the book</summary>
-<a href="https://www.packtpub.com/product/unity-cookbook-fifth-edition/9781805123026">
-<img src="https://content.packt.com/B36602/cover_image_small.jpg" alt="Unity Cookbook, Fifth Edition" height="256px" align="right">
+<a href="https://www.packtpub.com/en-us/product/context-engineering-for-multi-agent-systems-9781806690046">
+<img src="https://m.media-amazon.com/images/I/419o1BGjp0L.jpg" alt="Context Engineering  for Multi-Agent Systems, First Edition" height="350px" align="right">
 </a>
 
 Generative AI is powerful, yet often unpredictable. This guide shows you how to turn that unpredictability into reliability by thinking beyond prompts and approaching AI like an architect. At its core is the Context Engine, a glass-box, multi-agent system you’ll learn to design, strengthen, and apply across real-world scenarios.
