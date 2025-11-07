@@ -1,6 +1,9 @@
 <h1 align="center">
 Context Engineering  for Multi-Agent Systems, First Edition</h1>
-<p align="center">This is the code repository for <a href ="context-engineering--for-multi-agent-systems-first-edition"> Context Engineering  for Multi-Agent Systems, First Edition</a>, published by Packt.
+<p align="center">This is the code repository for <a href ="context-engineering--for-multi-agent-systems-first-edition"> Context Engineering  for Multi-Agent Systems, First Edition</a>, published by Packt.</p>
+<p align="center"> Last updated: November 7, 2025 </p>
+
+
 </p>
 
 <h2 align="center">
@@ -164,5 +167,4 @@ _Denis Rothman_ graduated from Sorbonne University and Paris-Diderot University,
 
 
 # Note
-Last updated: November 7, 2025     
 See the [Changelog](./CHANGELOG.md) for details. 
