@@ -26,7 +26,7 @@ Denis Rothman</p>
 <details open> 
   <summary><h2>About the book</summary>
 <a href="https://www.packtpub.com/en-us/product/context-engineering-for-multi-agent-systems-9781806690046">
-<img src="https://m.media-amazon.com/images/I/419o1BGjp0L.jpg" alt="Context Engineering  for Multi-Agent Systems, First Edition" height="350px" align="right">
+<img src="https://m.media-amazon.com/images/I/419o1BGjp0L.jpg" alt="Context Engineering  for Multi-Agent Systems, First Edition" height="1000px" align="right">
 </a>
 
 Generative AI is powerful, yet often unpredictable. This guide shows you how to turn that unpredictability into reliability by thinking beyond prompts and approaching AI like an architect. At its core is the Context Engine, a glass-box, multi-agent system you’ll learn to design, strengthen, and apply across real-world scenarios.
