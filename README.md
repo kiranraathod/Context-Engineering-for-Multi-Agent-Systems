@@ -163,7 +163,7 @@ _Denis Rothman_ graduated from Sorbonne University and Paris-Diderot University,
 
 
 
-#Note
+# Note
 
 Last updated: September 22, 2025     
 📝 For details on updates and improvements, see the [Changelog](./CHANGELOG.md).   
