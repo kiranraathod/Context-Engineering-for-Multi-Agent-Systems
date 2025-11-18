@@ -7,15 +7,15 @@ This changelog contains the notable updates to the **Context Enginnering for Mul
 ## [November 18, 2025]
 
 ### List of notebooks upgraded    
-`Chapter04/Context_Engine.ipynb`  
 `Chapter05/Context_Engine_MAS_MCP.ipynb`     
 `Chapter05/Context_Engine_Pre_Production.ipynb`    
 `Chapter06/Context_Engine_Content_Reduction.ipynb`    
 `Chapter07/NASA_Research_Assistant_and_Retrocompatibility.ipynb`        
 
-### List of notebooks upgraded and fixed      
-`Chapter08/Legal_assistant_Explorer.ipynb`   
-`Chapter09/Marketing_Assistant.ipynb`    
+### List of notebooks upgraded and fixed 1 and 2     
+`Chapter04/Context_Engine.ipynb`  
+`Chapter08/Legal_assistant_Explorer.ipynb`   (fixed 2)
+`Chapter09/Marketing_Assistant.ipynb`  (fixed 2
 
 ### Upgraded
 **GPT 5:** 
@@ -35,7 +35,10 @@ Upgrades to coding: more communicative, highly steerable, better code quality, i
 New tools: apply_patch (structured diffs) and shell (controlled local CLI).
 Pricing: Same pricing and rate limits as GPT-5."
 
-### Fixed
+### Fixed 1
+
+
+### Fixed 2
 - **Moderation API Type:** Resolved a critical formatting issue in `Marketing_Assistant.ipynb` (Cell 4) where the OpenAI Moderation API failed with `Error code: 400` when agents returned structured data (dictionaries or lists). Added logic to serialize these outputs into strings before submission.
 
 ### Added
