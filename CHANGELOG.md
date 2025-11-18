@@ -13,8 +13,8 @@ This changelog contains the notable updates to the **Context Enginnering for Mul
 `Chapter07/NASA_Research_Assistant_and_Retrocompatibility.ipynb`        
 
 ### List of notebooks upgraded and fixed 1 and 2     
-`Chapter04/Context_Engine.ipynb`  
-`Chapter08/Legal_assistant_Explorer.ipynb`   (fixed 2)
+`Chapter04/Context_Engine.ipynb` (fixed 1)    
+`Chapter08/Legal_assistant_Explorer.ipynb` (fixed 2)    
 `Chapter09/Marketing_Assistant.ipynb`  (fixed 2
 
 ### Upgraded
