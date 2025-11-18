@@ -37,6 +37,7 @@ Pricing: Same pricing and rate limits as GPT-5."
 
 ### Fixed 1
 
+Resolved an issue in the Context Engine where the Planner failed to parse valid JSON plans. Added support for the steps key in the LLM response schema to prevent execution errors.
 
 ### Fixed 2
 - **Moderation API Type:** Resolved a critical formatting issue in `Marketing_Assistant.ipynb` (Cell 4) where the OpenAI Moderation API failed with `Error code: 400` when agents returned structured data (dictionaries or lists). Added logic to serialize these outputs into strings before submission.
