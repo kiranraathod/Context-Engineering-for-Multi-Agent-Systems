@@ -6,7 +6,9 @@ This changelog contains the notable updates to the **Context Enginnering for Mul
 
 ## [November 18, 2025]
 
-### Chapter09/Marketing_Assistant.ipynb
+### Noteoboks upgraded and fixed:
+Chapter08/Legal_assistant_Explorer.ipynb
+Chapter09/Marketing_Assistant.ipynb
 
 ### Upgraded
 **GPT 5:** 
