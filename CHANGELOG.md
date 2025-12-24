@@ -14,6 +14,7 @@ We are currently evaluating GPT-5.2 and will upgrade in early 2026 once testing 
     - Replaces raw text logs with a clean, CSS-styled HTML dashboard.
     - Features collapsible steps, syntax-highlighted JSON, and status badges.
     - Implemented in `Chapter08/Legal_assistant_Explorer.ipynb` and `Chapter09/Marketing_Assistant.ipynb`.
+<img src="https://github.com/Denis2054/Context-Engineering-for-Multi-Agent-Systems/raw/main/Chapter08/dashboard_concept.svg" alt="New Interactive Dashboard" width="80%">
 
 ## [November 18, 2025]
 
