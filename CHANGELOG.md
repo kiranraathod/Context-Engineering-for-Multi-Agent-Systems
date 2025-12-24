@@ -4,9 +4,15 @@ This changelog contains the notable updates to the **Context Engineering for Mul
 🐬 Indicates *new bonus notebooks* to explore.
 
 ## [January 3, 2026]
-### Scheduled Upgrade from OpenAI API GPT-5.1 to GPT-5.2 after evaluation  
+### Upgrade Status from OpenAI API GPT-5.1 to GPT-5.2 after evaluation  
 The repository has already been upgraded to GPT-5.1, which has improved speed and quality (see November 18, 2025, upgrades).
-We are currently evaluating GPT-5.2 and will upgrade in early 2026 once testing is complete.
+Some notebooks were running well with GPT-5, and GPT-5.1 added no significant value.
+After evaluating GPT-5.2 in the context of this repository with some notebooks in the first chapter, it appeared that GPT-5.2 did not provide sufficient evidence
+of significant improvement over the GPT-5.1 upgrade for latency in some chapters.    
+*Final assessment* 
+- GPT-5 works fine for straightforward tasks such as embedding.
+- GPT-5.1 significantly improves latency for complex notebooks.
+- GPT-5.2 was evaluated. It provides some improvements, but it is not significant for this repository.
 
 ### Upgrade
 **Execution Visualization:** Updated `execute_and_display` in `Marketing_Assistant.ipynb` and `Legal_assistant_Explorer.ipynb` to utilize the new HTML dashboard renderer instead of standard print statements.
