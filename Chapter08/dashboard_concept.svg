@@ -18,7 +18,7 @@
     <g class="font-mono" fill="#475569" font-size="12">
       <text x="20" y="40" fill="#e2e8f0">{ "goal": "research...",</text>
       <text x="30" y="60" fill="#94a3b8">"steps": [ { "agent": "...",</text>
-      <text x="40" y="80" fill="#64748b">"output": "{\n  \"raw output\": true\n...}"</text>
+      <text x="40" y="80" fill="#64748b">"output": "{\n  \"raw output\":true"</text>
       <text x="30" y="100" fill="#94a3b8">}, { "agent": "..." </text>
       <text x="20" y="120" fill="#e2e8f0">... lots more text ...</text>
       <path d="M20 150 H280" stroke="#334155" stroke-width="2" stroke-dasharray="5,5"/>
@@ -60,4 +60,5 @@
       </g>
     </g>
   </g>
+
 </svg>
