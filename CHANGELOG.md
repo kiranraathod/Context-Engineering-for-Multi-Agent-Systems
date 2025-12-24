@@ -9,6 +9,7 @@ The repository has already been upgraded to GPT-5.1, which has improved speed an
 We are currently evaluating GPT-5.2 and will upgrade in early 2026 once testing is complete.
 
 ### Upgrade
+**Execution Visualization:** Updated `execute_and_display` in `Marketing_Assistant.ipynb` and `Legal_assistant_Explorer.ipynb` to utilize the new HTML dashboard renderer instead of standard print statements.
 - **Interactive Trace Dashboard:** Introduced `render_trace_dashboard` to visually render the Context Engine's execution trace.
     - Replaces raw text logs with a clean, CSS-styled HTML dashboard.
     - Features collapsible steps, syntax-highlighted JSON, and status badges.
