@@ -1,7 +1,23 @@
 # Changelog
 
-This changelog contains the notable updates to the **Context Engineering for Multi-Agent Systems** repository.   
-🐬 Indicates *new bonus notebooks* to explore.
+This changelog contains the notable updates (past, present, coming) to the **Context Engineering for Multi-Agent Systems** repository.   
+🐬 Indicates *new bonus notebooks* to explore. 
+
+## [January 25, 2026 release]
+### 🐬New **Sovereign Universal Context Engine:**
+
+The repository now includes `Chapter10/Universal_Context_Engine.ipynb`, a demonstration of the "Glass Box" architecture's domain-agnostic capabilities.
+* **Universal Architecture:** Runs both Legal and Marketing use cases using the exact same code base, proving that the engine contains zero business rules and relies entirely on retrieved Context and Control Deck instructions.
+  
+* **Sovereign Solution:** Utilizes High-Fidelity RAG for verifiable accuracy and fully controlled agents, eliminating black-box unpredictability.
+  
+* **Dual-Domain Support:** Instructions added for appending Marketing data to the Legal index (`clear_index=False`) to create a unified knowledge base.
+  
+**Token Analytics Upgrade:**
+The `engine.py` core and the dashboard rendering logic have been upgraded to provide rigorous transparency into token usage.
+* **Token Tracking:** The Render and Trace Dashboard now explicitly displays **Input Tokens**, **Output Tokens**, and the **Difference** for each step.
+  
+* **Cost-Efficiency Visibility:** Allows users to immediately gauge the verbosity and cost implications of the model's reasoning process during execution.
 
 ## [January 2, 2026 release]
 ### Upgrade Status from OpenAI API GPT-5.1 to GPT-5.2 after evaluation  
