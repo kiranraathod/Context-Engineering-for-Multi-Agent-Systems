@@ -23,8 +23,8 @@ The `engine.py` core and the dashboard rendering logic have been upgraded to pro
 ### Upgrade Status from OpenAI API GPT-5.1 to GPT-5.2 after evaluation  
 The repository has already been upgraded to GPT-5.1, which has improved speed and quality (see November 18, 2025, upgrades).
 Some notebooks were running well with GPT-5, and GPT-5.1 added no significant value.
-After evaluating GPT-5.2 in the context of this repository with some notebooks in the first chapter, it appeared that GPT-5.2 did not provide sufficient evidence
-of significant improvement over the GPT-5.1 upgrade for latency in some chapters.    
+After evaluating GPT-5.2 in the context of this repository with some notebooks such as `Chapter01/Use_Case.ipynb.ipynb`, it appeared that GPT-5.2 did not provide sufficient evidence
+of significant improvement over the GPT-5.1 upgrade for latency in the complex chapter-code.    
 *Final assessment* 
 - GPT-5 works fine for straightforward tasks such as embedding.
 - GPT-5.1 significantly improves latency for complex notebooks.
