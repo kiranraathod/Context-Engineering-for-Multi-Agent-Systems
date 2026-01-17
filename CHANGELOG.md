@@ -19,6 +19,13 @@ The `engine.py` core and the dashboard rendering logic have been upgraded to pro
   
 * **Cost-Efficiency Visibility:** Allows users to immediately gauge the verbosity and cost implications of the model's reasoning process during execution.
 
+## [January 17, 2026 note]
+
+Google Colab comes pre-installed with a library called google-adk that is used for Android development integration which requirements may produce a dependency conflict with the libraries installed in this repository. 
+You can ignore this error and proceed to the next cell of the installation section of the notebooks. 
+
+​This notebooks in this repository do not use google-adk, so a dependency conflict will not affect the Context Engine. 
+
 ## [January 2, 2026 release]
 ### Upgrade Status from OpenAI API GPT-5.1 to GPT-5.2 after evaluation  
 The repository has already been upgraded to GPT-5.1, which has improved speed and quality (see November 18, 2025, upgrades).
