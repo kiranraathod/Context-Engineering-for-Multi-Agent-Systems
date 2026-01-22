@@ -6,7 +6,7 @@ This changelog contains notable updates (past, present, and upcoming) to the **C
 ## [January 25, 2026 release]
 ### 🐬New **Sovereign Universal Context Engine:**
 
-The repository now includes `Chapter10/Universal_Context_Engine.ipynb`, a demonstration of the "Glass Box" architecture's domain-agnostic capabilities.
+The repository now includes `Chapter10/Universal_Context_Engine_UI.ipynb`, a demonstration of the "Glass Box" architecture's domain-agnostic capabilities.
 * **Universal Architecture:** Runs both Legal and Marketing use cases using the exact same code base, proving that the engine contains zero business rules and relies entirely on retrieved Context and Control Deck instructions.
   
 * **Sovereign Solution:** Utilizes High-Fidelity RAG for verifiable accuracy and fully controlled agents, eliminating black-box unpredictability.
@@ -25,7 +25,7 @@ Building upon the foundational logic established in the standard Universal Conte
 
 * **Commons upgrade**
   
-The Python dependencies are now in commons/engine/ in the Universal_Context_Engine_UI.ipynb:
+The Python dependencies are now in `commons/engine/` in the `Universal_Context_Engine_UI.ipynb`:
 
 ```python
 !curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/utils.py --output utils.py
@@ -37,7 +37,7 @@ The Python dependencies are now in commons/engine/ in the Universal_Context_Engi
 
 You can thus deploy the `Universal_Context_Engine_UI.ipynb` and the `commons/engine` content to your environment.
 
-You can also try using the new engine and engine agents, which allow wider RAG retrieval (k=15 instead of k=3) and a more flexible execution engine.
+You can also try using the new engine and engine agents, which allow wider RAG retrievals (`k=15`) and a more flexible execution engine.
 
 ```python
 !curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/utils.py --output utils.py
