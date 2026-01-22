@@ -49,7 +49,7 @@ class ExecutionTrace:
         logging.info(f"Trace finalized with status '{status}' in {self.duration}s")
 
 # === 6.2. The Planner (The Brain) ===
-def planner(goal, client, generation_model):
+def planner(goal, capabilities, client, generation_model):
     """
     Generates a step-by-step agent execution plan using variable resolution syntax.
     Enforces strict key names for agent compatibility.
@@ -77,7 +77,7 @@ CRITICAL RULES:
     return json.loads(plan_json)["plan"]
 
 # === 6.3. The Executor (The Engine) ===
-def context_engine(goal, client, index, generation_model, embedding_model, namespace_context, namespace_knowledge):
+def context_engine(goal, client, pc, index_name, generation_model, embedding_model, namespace_context, namespace_knowledge):
     """
     The main entry point for the Context Engine. 
     Manages the state, resolves variable dependencies, and executes agents in sequence.
@@ -86,7 +86,8 @@ def context_engine(goal, client, index, generation_model, embedding_model, names
     
     try:
         # Step 1: Planning
-        plan = planner(goal, client, generation_model)
+        capabilities = registry.get_capabilities_description()
+        plan = planner(goal, capabilities, client=client, generation_model=generation_model)
         trace.log_plan(plan)
         
         state = {}
