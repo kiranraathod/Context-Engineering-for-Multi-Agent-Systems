@@ -6,18 +6,47 @@ This changelog contains notable updates (past, present, and upcoming) to the **C
 ## [January 25, 2026 release]
 ### 🐬New **Sovereign Universal Context Engine:**
 
-The repository now includes `Chapter10/Universal_Context_Engine.ipynb`, a demonstration of the "Glass Box" architecture's domain-agnostic capabilities.
+The repository now includes `Chapter10/Universal_Context_Engine_UI.ipynb`, a demonstration of the "Glass Box" architecture's domain-agnostic capabilities.
 * **Universal Architecture:** Runs both Legal and Marketing use cases using the exact same code base, proving that the engine contains zero business rules and relies entirely on retrieved Context and Control Deck instructions.
   
 * **Sovereign Solution:** Utilizes High-Fidelity RAG for verifiable accuracy and fully controlled agents, eliminating black-box unpredictability.
   
 * **Dual-Domain Support:** Instructions added for appending Marketing data to the Legal index (`clear_index=False`) to create a unified knowledge base.
   
-**Token Analytics Upgrade:**
+* **Token Analytics Upgrade:**
 The `engine.py` core and the dashboard rendering logic have been upgraded to provide rigorous transparency into token usage.
 * **Token Tracking:** The Render and Trace Dashboard now explicitly displays **Input Tokens**, **Output Tokens**, and the **Difference** for each step.
   
 * **Cost-Efficiency Visibility:** Allows users to immediately gauge the verbosity and cost implications of the model's reasoning process during execution.
+
+* **IPython Interface**
+
+Building upon the foundational logic established in the standard Universal Context Engine, this version introduces an evolved IPython-based Control Deck with a drop-down menu containing multi-domain pre-set goals. While the original iteration relies on sequential cell execution and manual variable configuration to transition between Legal and Marketing domains, this notebook implements a dynamic user interface powered by ipywidgets. This evolution streamlines the orchestration process by centralizing goal selection, real-time input editing, and moderation guardrails into a single interactive dashboard, providing a more intuitive and efficient experience for managing complex multi-agent workflows.
+
+* **Commons upgrade**
+  
+The Python dependencies are now in `commons/engine/` in the `Universal_Context_Engine_UI.ipynb`:
+
+```python
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/utils.py --output utils.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/helpers.py --output helpers.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/agents.py --output agents.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/registry.py --output registry.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/engine.py --output engine.py
+```
+
+You can thus deploy the `Universal_Context_Engine_UI.ipynb` and the `commons/engine` content to your environment.
+
+You can also try using the new engine and engine agents, which allow wider RAG retrievals (`k=15`) and a more flexible execution engine.
+
+```python
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/utils.py --output utils.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/helpers.py --output helpers.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/agents_k15.py --output agents.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/registry.py --output registry.py
+!curl -Lf https://raw.githubusercontent.com/Denis2054/Context-Engineering/main/commons/engine/engine_k15.py --output engine.py
+```
+*Note* that though the agents and engine files have a `_k15` suffix, they are imported under their agents.py and engine.py names.
 
 ## [January 17, 2026 note]
 
